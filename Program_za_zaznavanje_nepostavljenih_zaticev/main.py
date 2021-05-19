@@ -22,10 +22,10 @@ from detectionFun import *
 leftPoint = [25, 25]
 rightPoint = [280, 280]
 
-detectionFun("v1/WIN_20210401_12_22_06_Pro.jpg", 12.5, 3, leftPoint, rightPoint, "left", True, 2)
-detectionFun("v1/WIN_20210401_12_22_01_Pro.jpg", 12.5, 3, leftPoint, rightPoint, "left", True, 2)
-detectionFun("v1/WIN_20210401_12_22_10_Pro.jpg", 12.5, 3, leftPoint, rightPoint, "left", True, 2)
-detectionFun("v1/WIN_20210401_12_22_20_Pro.jpg", 12.5, 3, leftPoint, rightPoint, "left", True, 4)
+detectionFun("Slike/WIN_20210401_12_22_06_Pro.jpg", 12.5, 3, leftPoint, rightPoint, "left", True, 2)
+detectionFun("Slike/WIN_20210401_12_22_01_Pro.jpg", 12.5, 3, leftPoint, rightPoint, "left", True, 2)
+detectionFun("Slike/WIN_20210401_12_22_10_Pro.jpg", 12.5, 3, leftPoint, rightPoint, "left", True, 2)
+detectionFun("Slike/WIN_20210401_12_22_20_Pro.jpg", 12.5, 3, leftPoint, rightPoint, "left", True, 4)
 
 
 
