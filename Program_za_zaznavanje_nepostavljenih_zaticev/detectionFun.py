@@ -29,7 +29,7 @@ def detectionFun (imageName, height, width, leftPoint, rightPoint, hand, draw, r
     #   ---------------------------------         
     #   ---------------------------------       
 
-    fullName = '../DEMO/'+imageName
+    fullName = imageName
     demoImage0 = cv.imread(fullName)
 
     image = cutImage(demoImage0)
